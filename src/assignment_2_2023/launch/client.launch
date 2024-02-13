@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="window_size" default="10" />
+    <node pkg="assignment_2_2023" type="action_client.py" name="client" output="screen" />
+    <node pkg="assignment_2_2023" type="GetLastTarget.py" name="GetTargetPosition" output="screen" />
+    <node pkg="assignment_2_2023" type="GetDistanceSpeed.py" name="GetRobotStatus" output="screen">
+    </node>
+</launch>

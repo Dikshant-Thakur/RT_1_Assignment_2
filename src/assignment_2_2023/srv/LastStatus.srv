@@ -1,0 +1,4 @@
+# LastStatus.srv
+---
+float64 distance_to_target
+float64 average_speed
