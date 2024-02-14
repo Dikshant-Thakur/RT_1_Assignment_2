@@ -1,7 +1,10 @@
 # Research Track assignment 2
 In this assignment, we have to develop three nodes:
+
 a. The node implements an action client for setting or cancelling a target (x, y). It utilizes feedback/status from the action server to determine target reaching. Additionally, it publishes robot position and velocity (x, y, vel_x, vel_z) as a custom message, relying on values from the /Odom topic.
+
 b. A service node that, when called, returns the coordinates of the last target sent by the user.
+
 c. Another service node that subscribes to the robot’s position and velocity (using the custom message) and implements a server to retrieve the distance of the robot from the target and the robot’s average speed. 
 
 ## Initialisation of the Server-Client
