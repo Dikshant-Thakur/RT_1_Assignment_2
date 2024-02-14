@@ -53,3 +53,21 @@ if __name__ is "__main__":
   
     Pass
 ```
+
+### Services
+a. Get the last target 
+To see the last target mentioned by the user. Run the below-given command 
+
+```
+rosservice call /LastStatus
+
+```
+b. Get target distance and average velocity
+
+To see the target distance and average velocity of the Robot. Run the below-given command.
+
+```
+rosservice call /GetTrgtPos
+```
+
+
